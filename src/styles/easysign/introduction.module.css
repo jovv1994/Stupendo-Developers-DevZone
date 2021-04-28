@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.pdf {
+  width: 100%;
+  min-height: calc(100vh - 80px - 75px);
+}
+.body {
+  min-height: calc(100vh - 80px - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  box-shadow: 2px 2px 4px rgba(175, 175, 175, 0.7);
+  background-color: #f2f2f2;
+}
+.main {
+  height: calc(100vh - 80px - 75px - 126px - 88px);
+  overflow: auto;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}

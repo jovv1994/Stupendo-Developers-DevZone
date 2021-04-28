@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 4px rgba(179, 179, 179, 0.7);
+}
+
+.logo {
+  width: 234px;
+  height: 54px;
+  margin: 13px 0 0 450px;
+}

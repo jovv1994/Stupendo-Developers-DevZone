@@ -1,0 +1,6 @@
+.body {
+  min-height: calc(100vh - 80px - 75px);
+}
+.container {
+  display: flex;
+}

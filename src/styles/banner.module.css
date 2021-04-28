@@ -1,0 +1,47 @@
+@import '../styles/typography.css';
+
+.container {
+  position: relative;
+  display: flex;
+  height: 270px;
+}
+.banner {
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #46517b 0%,
+    #ffffff 0%,
+    #fcfcfd 15%,
+    #f4f4f7 28%,
+    #e5e7ed 44%,
+    #d1d4de 55%,
+    #b7bbcc 67%,
+    #969db5 83%,
+    #71799a 85%,
+    #45507b 100%
+  );
+  opacity: 0.17;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 270px;
+}
+
+.p {
+  color: #3d4975;
+  font-family: 'Myriad Pro';
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 14px;
+  text-align: left;
+  margin: 193px 0 0 39px;
+}
+
+.img {
+  margin: 30px 0 0 79px;
+  width: 283px;
+  height: 230px;
+}
